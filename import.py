@@ -13,7 +13,7 @@ maskk = "/content/mask.png"
 initoutputss = "/content/initmask/outputs/init.png"
 maskoutputss = "/content/initmask/outputs/mask.png"
 shutil.copy(initt, initoutputss)
-shutil.copy(maskss, maskoutputss)
+shutil.copy(maskk, maskoutputss)
 
 inname = "/content/initmask/outputs/init.png"
 inn = ('/content/initmask/outputs/' + str(tgl) + 'I.png')
