@@ -10,17 +10,17 @@ full_local_path = "/content/initmask"
 
 initt = "/content/init.png"
 maskk = "/content/mask.png"
-initoutputss = "/content/initmask/outputs/init.png"
-maskoutputss = "/content/initmask/outputs/mask.png"
+initoutputss = "/content/initmask/outputs/" + str(tgl) + "I.png"
+maskoutputss = "/content/initmask/outputs/" + str(tgl) + "M.png"
 shutil.copy(initt, initoutputss)
 shutil.copy(maskk, maskoutputss)
 
-inname = "/content/initmask/outputs/init.png"
-inn = ('/content/initmask/outputs/' + str(tgl) + 'I.png')
-os.rename(inname, inn)
-maname = "/content/initmask/outputs/mask.png"
-ma = ('/content/initmask/outputs/' + str(tgl) + 'M.png')
-os.rename(maname, ma)
+#inname = "/content/initmask/outputs/init.png"
+#inn = ('/content/initmask/outputs/' + str(tgl) + 'I.png')
+#os.rename(inname, inn)
+#maname = "/content/initmask/outputs/mask.png"
+#ma = ('/content/initmask/outputs/' + str(tgl) + 'M.png')
+#os.rename(maname, ma)
 #backupname = "/content/training/HEINZO.zip"
 #backup = ('/content/training/H' + str(tgl) + '.zip')
 #os.rename(backupname, backup)
